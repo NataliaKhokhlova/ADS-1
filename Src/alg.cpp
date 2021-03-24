@@ -6,9 +6,9 @@ int cbinsearch(int arr, int size, int value) {
  int left = 0; int x1; // найденный элемент
  int arr [n];
  int right = n - 1;
-while (left <= right){
-     if (table[n] == x) x1 = n;
-     if (table[n] > x) right = n - 1;
+в то время как (слева){
+     если (таблица[n] == x) x1 = n;
+     если (таблица[n] > x) справа = n - > 1;
  else left = n + 1;
 }
  return 0; // если ничего не найдено
