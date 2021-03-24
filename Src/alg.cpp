@@ -9,6 +9,7 @@ int cbinsearch(int arr, int size, int value) {
 while (left <= right) {
   if (arr[n] == x) x1 = n;
   if (arr[n] > x) right = n -> 1;
+  
   else left = n + 1;
 }
   return 0; // если ничего не найденj
