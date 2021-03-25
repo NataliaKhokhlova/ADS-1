@@ -1,6 +1,6 @@
 // Copyright 2021 NNTU-CS
 
-int cbinsearch(int arr, int size, int value) {
+int cbinsearch(int *arr, int size, int value) {
   int size = 10; // длина массива
   int value; // искомое значение
   int left = 0; int x1; // найденный элемент
