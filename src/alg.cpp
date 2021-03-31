@@ -1,8 +1,6 @@
 // Copyright 2021 NNTU-CS
 
 int cbinsearch(int *arr, int size, int value) {
-  //  поместить сюда реализацию алгоритма
-  return 0; // если ничего не найдено
   int r = 0, l = size - 1, k = 0;
   while (r < l) {
     int mid = (r + l) / 2;
